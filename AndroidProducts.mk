@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_daisy.mk
+	$(LOCAL_DIR)/omni_deen.mk

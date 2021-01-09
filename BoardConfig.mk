@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/daisy
+LOCAL_PATH := device/motorola/deen
 
 # Architecture
 TARGET_ARCH := arm64
@@ -80,7 +80,7 @@ BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # TWRP Configuration
-TARGET_OTA_ASSERT_DEVICE := daisy,daisy_sprout
+TARGET_OTA_ASSERT_DEVICE := deen
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TW_NO_SCREEN_BLANK := true

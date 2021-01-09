@@ -20,7 +20,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from device configuration
-$(call inherit-product, device/xiaomi/daisy/device.mk)
+$(call inherit-product, device/motorola/deen/device.mk)
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8953
@@ -30,8 +30,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.bootctrl=$(TARGET_BOARD_PLATFORM)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := daisy
-PRODUCT_NAME := omni_daisy
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi A2 Lite
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := deen
+PRODUCT_NAME := omni_deen
+PRODUCT_BRAND := Motorola
+PRODUCT_MODEL := One
+PRODUCT_MANUFACTURER := Motorola
